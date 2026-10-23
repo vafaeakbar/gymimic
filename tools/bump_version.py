@@ -2,7 +2,7 @@
 
 Run after editing any file, before publishing:  python3 tools/bump_version.py
 Browsers cache files by URL; a new ?v= makes them fetch the new versions.
-Paths are relative so the site works from any folder (e.g. /mimicgym/).
+Paths are relative so the site works from any folder (e.g. /gymimic/).
 """
 import glob
 import json
