@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>MimicGYM icon renderer</title>
+  <title>Gymimic icon renderer</title>
   <!-- Renders the app icons and the 1200×630 share card from their sources:
        icons/favicon.svg (product symbol) and icons/by-alajeer-dark.svg (official sign-off).
        Open via the local server (python3 serve.py → http://localhost:5173/tools/render-icons.html),
@@ -62,7 +62,7 @@
       results["icon-maskable-512.png"] = c.toDataURL("image/png");
     }
 
-    // Share card (Open Graph), 1200×630: same family layout as AraBiC, in MimicGYM's own colours.
+    // Share card (Open Graph), 1200×630: same family layout as AraBiC, in Gymimic's own colours.
     {
       const W = 1200, H = 630, c = canvas("og-image.png", W, H), ctx = c.getContext("2d");
       ctx.fillStyle = "#0E1812";
@@ -89,13 +89,13 @@
       // Wordmark, then each language on its own line.
       const cx = 770;
       ctx.textBaseline = "alphabetic";
-      ctx.font = "800 132px Outfit";
-      const a = ctx.measureText("Mimic").width, b = ctx.measureText("GYM").width;
+      ctx.font = "800 140px Outfit";
+      const a = ctx.measureText("Gym").width, b = ctx.measureText("imic").width;
       ctx.textAlign = "left";
-      ctx.fillStyle = "#EEF5EF";
-      ctx.fillText("Mimic", cx - (a + b) / 2, 250);
       ctx.fillStyle = "#7EE081";
-      ctx.fillText("GYM", cx - (a + b) / 2 + a, 250);
+      ctx.fillText("Gym", cx - (a + b) / 2, 250);
+      ctx.fillStyle = "#EEF5EF";
+      ctx.fillText("imic", cx - (a + b) / 2 + a, 250);
       ctx.textAlign = "center";
       ctx.fillStyle = "#EEF5EF";
       ctx.font = "700 46px 'Noto Kufi Arabic'";

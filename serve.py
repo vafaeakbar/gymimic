@@ -1,4 +1,4 @@
-"""Local dev server for MimicGYM: http://localhost:5173
+"""Local dev server for Gymimic: http://localhost:5173
 
 Same as `python3 -m http.server`, but tells the browser not to cache, so
 edits show up on a normal reload.
@@ -18,5 +18,5 @@ class NoCacheHandler(http.server.SimpleHTTPRequestHandler):
 if __name__ == "__main__":
     os.chdir(os.path.dirname(os.path.abspath(__file__)))
     with http.server.ThreadingHTTPServer(("", PORT), NoCacheHandler) as httpd:
-        print(f"MimicGYM running at http://localhost:{PORT}")
+        print(f"Gymimic running at http://localhost:{PORT}")
         httpd.serve_forever()
