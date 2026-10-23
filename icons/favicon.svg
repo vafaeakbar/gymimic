@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- MimicGYM: the coach silhouette mid star-jump. Mint (#7EE081) on forest (#12281C). -->
+  <rect width="64" height="64" rx="14" fill="#12281C"/>
+  <g fill="none" stroke="#7EE081" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M30.3 37 L27.2 44 L24.8 50.9 M33.7 37 L36.8 44 L39.2 50.9" stroke-width="4.6"/>
+    <path d="M32 37 L32 23" stroke-width="6.5"/>
+    <path d="M28.9 23.6 L35.1 23.6" stroke-width="4"/>
+    <path d="M28.9 23.6 L24.8 18.3 L21.4 13 M35.1 23.6 L39.2 18.3 L42.6 13" stroke-width="4"/>
+  </g>
+  <circle cx="32" cy="16.4" r="4.6" fill="#7EE081"/>
+</svg>

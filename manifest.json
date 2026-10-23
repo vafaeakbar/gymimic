@@ -1,0 +1,16 @@
+{
+  "name": "MimicGYM",
+  "short_name": "MimicGYM",
+  "description": "Home workouts where the world moves with you: follow the coach, and every rep makes something happen.",
+  "lang": "en",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0E1812",
+  "theme_color": "#0E1812",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
